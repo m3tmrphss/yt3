@@ -68,8 +68,8 @@ main {
     display: flex;
     align-items: center;
     img {
-        width: 18px !important;
-        height: 18px !important;
+        width: 18px ;
+        height: 18px;
     }
 }
 .category-container__category:hover {
@@ -187,8 +187,8 @@ main {
     border: 1px solid #C1C5CD;
     width: fit-content;
     img {
-        width: 18px !important;
-        height: 18px !important; 
+        width: 18px ;
+        height: 18px ; 
     }
 }
 .card__category-container {
@@ -526,7 +526,7 @@ footer {
         font-size: 32px;
         top: 15.5px;
         left: 20px;
-    }
+    } 
     main {
         width: 100%;
     }
@@ -540,6 +540,13 @@ footer {
         left: 20px;
         margin: 0;
         
+        
+    }
+    .category-container__category {
+            img {
+            width: 18px;
+            height: 18px
+        }
     }
     .card-container > a:nth-of-type(1) > .card , .card-container > a:nth-of-type(2) > .card {
         .card__card-img {
